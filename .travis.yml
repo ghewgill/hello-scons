@@ -1,0 +1,8 @@
+language: c
+os:
+  - linux
+  - osx
+before_install:
+  - which scons || brew install scons
+script: scons
+sudo: false
